@@ -13,7 +13,7 @@
 .logo{
     margin-top: 25px;
     grid-area: logo;
-    font-size: 1.3em;
+    font-size: 20px;
     color: rgb(9, 10, 10);
 }
 
@@ -27,7 +27,7 @@
     color: rgb(3, 3, 3);
     text-decoration: none;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: 520;
     font-family: 'Montserrat', sans-serif;
 }
@@ -59,17 +59,17 @@
 }
 .h4 , h6{
     margin: 5px;
-    font-size: 1.5em;
+    font-size: 20px;
 }
 p{
     margin: 15px 0;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 .boxi{
     position: absolute;
     top: 32%;
     left: 46%;
-    font-size: 2em;
+    font-size: 35px;
     color: rgb(119, 117, 115);
 }
 .boxi:hover{
@@ -80,7 +80,7 @@ p{
     position: relative;
     top: 25%;
     left: 87.7%;
-    font-size: 1.4em;
+    font-size: 22.4px;
 }
 /*     SECTION 2     */
 .main-section2{
@@ -92,11 +92,11 @@ p{
 }
 .h2-section2{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
 .text-2{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
 .img-section-1{
     margin-top: 80px;
@@ -132,7 +132,7 @@ p{
     border-radius: 50%;
 }
 .texto-section2{
-    margin-top: 12em;
+    margin-top: 230px;
 }
 /*   SECTION 3   */
 .main-section3{
@@ -144,11 +144,11 @@ p{
 }
 .h2-section3{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
 .text-3{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
 .img-section3-1{
     margin-top: 20px;
@@ -170,7 +170,7 @@ p{
 }
 
 .social:hover {
-    font-size: 4.5em;
+    font-size: 72px;
     transition: 1s;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
 }

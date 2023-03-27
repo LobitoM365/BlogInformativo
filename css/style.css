@@ -3,18 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*    NAV      */
 .nav{
     display: grid;
     grid-gap: 20px;
     grid-template:"empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 
                     2fr        20%       1fr          1fr            1fr         40%     1fr;
 }
-/*    NAV      */
-
 .logo{
     margin-top: 25px;
     grid-area: logo;
-    font-size: 1.3em;
+    font-size: 20px;
     color: rgb(9, 10, 10);
 }
 
@@ -28,7 +27,7 @@
     color: rgb(3, 3, 3);
     text-decoration: none;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: 520;
     font-family: 'Montserrat', sans-serif;
 }
@@ -41,21 +40,25 @@
     border-bottom: 1px solid black;
 }
 /*    BODY    */
+
 .main-box{
     display: grid;
     grid-gap: 20px;
-    height: 900px;
-    grid-template: "empty-left  img-article-1     empty-right" 500px
-                    "empty-left  img-article-2     empty-right"500px
-                    "empty-left  contenido          empty-right"/
-                    1fr          80%              1fr;
+    height: 1000px;
+    grid-template:
+        "empty-left  img-article-1  empty-right" 500px
+        "empty-left  img-article-2  empty-right" 500px
+        "empty-left  contenido     empty-right"/
+        1fr         80%            1fr;
 
 }
+
 .img-article-1{
     margin-top: 80px;
     grid-area: img-article-1;
     background-color: rgb(133, 132, 132);
 }
+
 .img-article-2{
     left: 73%;
     bottom: 25%;
@@ -65,6 +68,7 @@
     grid-area: img-article-2;
     background-color: rgb(32, 32, 32);
 }
+
 .contenido {
     grid-area: contenido;
     left: 20%;
@@ -73,29 +77,35 @@
     height: 300px;
     position: relative;
 }   
+
 .h3{
-    font-size: 4em;
+    font-size: 64px;
 }
+
 .text{
-    font-size: 1.2em;
+    font-size: 24px;
 }
+
 .boxi{
     position: absolute;
     top: 30%;
     left: -30%;
-    font-size: 4em;
+    font-size: 64px;
     color: rgb(119, 117, 115);
 }
+
 .boxi:hover{
     cursor: pointer;
     color: darkorange;
 }
+
 .boxp{
     position: relative;
     top: 50%;
     left: -27%;
-    font-size: 2em;
+    font-size: 32px;
 }
+
 /*    SECTION 2     */
 .main-section2{
     display: grid;
@@ -106,42 +116,49 @@
 }
 .h2-section2{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
 .text-2{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
 .img-section-1{
     margin-top: 80px;
     grid-area: img-section-1;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
 .img-section-2{
     margin-top: 80px;
     grid-area: img-section-2;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
 .img-section-3{
     margin-top: 80px;
     grid-area: img-section-3;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
 .img-section-4{
     margin-top: 80px;
     grid-area: img-section-4;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
 .img-section-5{
     margin-top: 80px;
     grid-area: img-section-5;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
 .img-section-6{
     margin-top: 80px;
     grid-area: img-section-6;
     background-color: rgb(26, 26, 26);
+    height: 320px;
 }
+
 /*    SECTION 3     */
 .main-section3{
     display: grid;
@@ -152,27 +169,31 @@
 }
 .h2-section3{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
 .text-3{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
 .img-section3-1{
     margin-top: 80px;
     grid-area: img-section3-1;
     background-color: rgb(26, 26, 26);
+    height: 240px;
 }
 .img-section3-2{
     margin-top: 80px;
     grid-area: img-section3-2;
     background-color: rgb(26, 26, 26);
+    height: 240px;
 }
 .img-section3-3{
     margin-top: 80px;
     grid-area: img-section3-3;
     background-color: rgb(26, 26, 26);
+    height: 240px;
 }
+
 /*      FOOTER     */   
 .lol{
     display:flex ;
@@ -187,7 +208,7 @@
 }
 
 .social:hover {
-    font-size: 4.5em;
+    font-size: 36px; 
     transition: 1s;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
 }
