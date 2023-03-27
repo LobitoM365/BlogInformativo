@@ -69,7 +69,7 @@ p{
     position: absolute;
     top: 32%;
     left: 46%;
-    font-size: 35px;
+    font-size: 32px; 
     color: rgb(119, 117, 115);
 }
 .boxi:hover{
@@ -80,7 +80,7 @@ p{
     position: relative;
     top: 25%;
     left: 87.7%;
-    font-size: 22.4px;
+    font-size: 22px;
 }
 /*     SECTION 2     */
 .main-section2{
