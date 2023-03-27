@@ -48,7 +48,7 @@
 .section-1{
     display: grid;
     grid-gap: 20px;
-    height: 700px;
+    height: 800px;
     grid-template:"empty-left  text-1 img-1  empty-right" 400px/ 
                     1fr        42%    38%    1fr;
 }
@@ -86,7 +86,7 @@ p{
 .main-section2{
     display: grid;
     grid-gap: 30px;
-    height: 500px;
+    height: 600px;
     grid-template: "empty-left  img-section-1 img-section-2 img-section-3   empty-right" 300px/
                     1fr          20%          20%            20%            1fr;
 }
