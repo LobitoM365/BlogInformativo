@@ -3,193 +3,165 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /*    NAV      */
-.nav {
+.nav{
     display: grid;
     grid-gap: 20px;
-    grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
+    grid-template:"empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 
+                    2fr        20%       1fr          1fr            1fr         40%     1fr;
 }
-
-.logo {
+.logo{
     margin-top: 25px;
     grid-area: logo;
-    font-size: 1.3em;
+    font-size: 20px;
     color: rgb(9, 10, 10);
 }
 
-.menu {
+.menu{
     grid-area: menu;
     margin-top: 20px;
     text-align: center;
 }
 
-.menu ul a {
+.menu ul a{
     color: rgb(3, 3, 3);
     text-decoration: none;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: 520;
     font-family: 'Montserrat', sans-serif;
 }
-
 .menu ul li {
     display: inline-block;
     margin: 20px;
 }
-
 .menu ul a:hover {
     cursor: pointer;
     border-bottom: 1px solid black;
 }
-
 /*    BODY    */
-.section-1 {
+.section-1{
     display: grid;
     grid-gap: 20px;
     height: 800px;
-    grid-template: "empty-left  text-1 img-1  empty-right" 400px/ 1fr 42% 38% 1fr;
+    grid-template:"empty-left  text-1 img-1  empty-right" 400px/ 
+                    1fr        42%    38%    1fr;
 }
-
-.text-1 {
+.text-1{
     margin-top: 80px;
     grid-area: text-1;
 }
-
-.img-1 {
+.img-1{
     margin-top: 80px;
     grid-area: img-1;
     height: 550px;
     background-color: rgb(133, 132, 132);
 }
-
-.h4,
-h6 {
+.h4 , h6{
     margin: 5px;
-    font-size: 1.5em;
+    font-size: 20px;
 }
-
-p {
+p{
     margin: 15px 0;
-    font-size: 1.3em;
+    font-size: 20px;
 }
-
-.boxi {
+.boxi{
     position: absolute;
-    top: 32%;
+    top: 18%;
     left: 46%;
-    font-size: 2em;
+    font-size: 32px; 
     color: rgb(119, 117, 115);
 }
-
-.boxi:hover {
+.boxi:hover{
     cursor: pointer;
     color: darkorange;
 }
-
-.boxp {
+.boxp{
     position: relative;
     top: 25%;
     left: 87.7%;
-    font-size: 1.4em;
+    font-size: 22px;
 }
-
 /*     SECTION 2     */
-.main-section2 {
+.main-section2{
     display: grid;
     grid-gap: 30px;
     height: 600px;
     grid-template: "empty-left  img-section-1 img-section-2 img-section-3 img-section-4 img-section-5 img-section-6   empty-right" 300px/
-        1fr 13% 13% 13% 13% 13% 13% 1fr;
+                    1fr          13%          13%            13%           13%           13%           13%            1fr;
 }
-
-.h2-section2 {
+.h2-section2{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
-
-.text-2 {
+.text-2{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
-
-.img-section-1 {
+.img-section-1{
     margin-top: 80px;
     grid-area: img-section-1;
     background-color: rgb(26, 26, 26);
 }
-
-.img-section-2 {
+.img-section-2{
     margin-top: 80px;
     grid-area: img-section-2;
     background-color: rgb(26, 26, 26);
 }
-
-.img-section-3 {
+.img-section-3{
     margin-top: 80px;
     grid-area: img-section-3;
     background-color: rgb(26, 26, 26);
 }
-
-.img-section-4 {
+.img-section-4{
     margin-top: 80px;
     grid-area: img-section-4;
     background-color: rgb(26, 26, 26);
 }
-
-.img-section-5 {
+.img-section-5{
     margin-top: 80px;
     grid-area: img-section-5;
     background-color: rgb(26, 26, 26);
 }
-
-.img-section-6 {
+.img-section-6{
     margin-top: 80px;
     grid-area: img-section-6;
     background-color: rgb(26, 26, 26);
 }
-
-.style-box {
+.style-box{
     border-radius: 50%;
 }
-
-.texto-section2 {
-    margin-top: 12em;
+.texto-section2{
+    margin-top: 230px;
 }
-
 /*   SECTION 3   */
-.main-section3 {
+.main-section3{
     display: grid;
     grid-gap: 60px;
     height: 400px;
     grid-template: "empty-left  img-section3-1   empty-right" 300px/
-        1fr 40% 1fr;
+                    1fr          40%               1fr;
 }
-
-.h2-section3 {
+.h2-section3{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 72px;
 }
-
-.text-3 {
+.text-3{
     text-align: center;
-    font-size: 1em;
+    font-size: 16px;
 }
-
-.img-section3-1 {
+.img-section3-1{
     margin-top: 20px;
     grid-area: img-section3-1;
     background-color: rgb(26, 26, 26);
     border-radius: 7%;
 }
-
-/*      FOOTER     */
-.lol {
-    display: flex;
-    justify-content: center;
+/*      FOOTER     */   
+.lol{
+    display:flex ;
+    justify-content: center; 
     align-items: center;
 }
-
 .social {
     display: inline-block;
     width: 80px;
@@ -198,10 +170,11 @@ p {
 }
 
 .social:hover {
-    font-size: 4.5em;
+    font-size: 72px;
     transition: 1s;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
 }
+
 
 .container-mobile {
     display: none;
