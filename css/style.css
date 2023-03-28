@@ -4,28 +4,19 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-<<<<<<< HEAD
 
 .nav {
-=======
-/*    NAV      */
-.nav{
->>>>>>> devdarickson
     display: grid;
     grid-gap: 20px;
     grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
 }
-<<<<<<< HEAD
 
 /*    NAV      */
 
 .logo {
-=======
-.logo{
->>>>>>> devdarickson
     margin-top: 25px;
     grid-area: logo;
-    font-size: 20px;
+    font-size: 1.3em;
     color: rgb(9, 10, 10);
 }
 
@@ -39,7 +30,7 @@
     color: rgb(3, 3, 3);
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 520;
     font-family: 'Montserrat', sans-serif;
 }
@@ -55,7 +46,6 @@
 }
 
 /*    BODY    */
-<<<<<<< HEAD
 .main-box {
     display: grid;
     grid-gap: 20px;
@@ -68,32 +58,12 @@
 }
 
 .img-article-1 {
-=======
-
-.main-box{
-    display: grid;
-    grid-gap: 20px;
-    height: 1000px;
-    grid-template:
-        "empty-left  img-article-1  empty-right" 500px
-        "empty-left  img-article-2  empty-right" 500px
-        "empty-left  contenido     empty-right"/
-        1fr         80%            1fr;
-
-}
-
-.img-article-1{
->>>>>>> devdarickson
     margin-top: 80px;
     grid-area: img-article-1;
     background-color: rgb(133, 132, 132);
 }
 
-<<<<<<< HEAD
 .img-article-2 {
-=======
-.img-article-2{
->>>>>>> devdarickson
     left: 73%;
     bottom: 25%;
     width: 250px;
@@ -110,7 +80,6 @@
     width: 450px;
     height: 300px;
     position: relative;
-<<<<<<< HEAD
 }
 
 .h3 {
@@ -122,44 +91,23 @@
 }
 
 .boxi {
-=======
-}   
-
-.h3{
-    font-size: 64px;
-}
-
-.text{
-    font-size: 24px;
-}
-
-.boxi{
->>>>>>> devdarickson
     position: absolute;
     top: 30%;
     left: -30%;
-    font-size: 62px; 
+    font-size: 4em;
     color: rgb(119, 117, 115);
 }
 
-<<<<<<< HEAD
 .boxi:hover {
-=======
-.boxi:hover{
->>>>>>> devdarickson
     cursor: pointer;
     color: darkorange;
 }
 
-<<<<<<< HEAD
 .boxp {
-=======
-.boxp{
->>>>>>> devdarickson
     position: relative;
     top: 50%;
     left: -27%;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 /*    SECTION 2     */
@@ -173,54 +121,48 @@
 
 .h2-section2 {
     text-align: center;
-    font-size: 72px;
+    font-size: 4.5em;
 }
 
 .text-2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .img-section-1 {
     margin-top: 80px;
     grid-area: img-section-1;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 .img-section-2 {
     margin-top: 80px;
     grid-area: img-section-2;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 .img-section-3 {
     margin-top: 80px;
     grid-area: img-section-3;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 .img-section-4 {
     margin-top: 80px;
     grid-area: img-section-4;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 .img-section-5 {
     margin-top: 80px;
     grid-area: img-section-5;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 .img-section-6 {
     margin-top: 80px;
     grid-area: img-section-6;
     background-color: rgb(26, 26, 26);
-    height: 320px;
 }
 
 /*    SECTION 3     */
@@ -234,46 +176,36 @@
 
 .h2-section3 {
     text-align: center;
-    font-size: 72px;
+    font-size: 4.5em;
 }
 
 .text-3 {
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .img-section3-1 {
     margin-top: 80px;
     grid-area: img-section3-1;
     background-color: rgb(26, 26, 26);
-    height: 240px;
 }
 
 .img-section3-2 {
     margin-top: 80px;
     grid-area: img-section3-2;
     background-color: rgb(26, 26, 26);
-    height: 240px;
 }
 
 .img-section3-3 {
     margin-top: 80px;
     grid-area: img-section3-3;
     background-color: rgb(26, 26, 26);
-    height: 240px;
 }
 
-<<<<<<< HEAD
 /*      FOOTER     */
 .lol {
     display: flex;
     justify-content: center;
-=======
-/*      FOOTER     */   
-.lol{
-    display:flex ;
-    justify-content: center; 
->>>>>>> devdarickson
     align-items: center;
 }
 
@@ -285,7 +217,7 @@
 }
 
 .social:hover {
-    font-size: 36px; 
+    font-size: 4.5em;
     transition: 1s;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
 }
