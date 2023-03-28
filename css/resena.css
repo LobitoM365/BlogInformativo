@@ -236,7 +236,6 @@ p {
     .menu-hamburguer {
         width: 100%;
         display: flex;
-        margin-bottom: 60px;
     }
 
     .titulo-menu-hamburguer {
@@ -292,7 +291,7 @@ p {
     }
 
     .seccion1-mobile {
-
+        margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 200px auto;
@@ -349,7 +348,6 @@ p {
         margin: 10px;
     }
     .imgs{
-
         display: flex;
         justify-content: center;
         align-items: center;
