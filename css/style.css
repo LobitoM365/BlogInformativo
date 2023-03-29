@@ -4,27 +4,28 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /*    NAV      */
-.nav{
+.nav {
     display: grid;
     grid-gap: 20px;
-    grid-template:"empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 
-                    2fr        20%       1fr          1fr            1fr         40%     1fr;
+    grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
 }
-.logo{
+
+.logo {
     margin-top: 25px;
     grid-area: logo;
     font-size: 20px;
     color: rgb(9, 10, 10);
 }
 
-.menu{
+.menu {
     grid-area: menu;
     margin-top: 20px;
     text-align: center;
 }
 
-.menu ul a{
+.menu ul a {
     color: rgb(3, 3, 3);
     text-decoration: none;
     display: inline-block;
@@ -32,35 +33,38 @@
     font-weight: 520;
     font-family: 'Montserrat', sans-serif;
 }
+
 .menu ul li {
     display: inline-block;
     margin: 20px;
 }
+
 .menu ul a:hover {
     cursor: pointer;
     border-bottom: 1px solid black;
 }
+
 /*    BODY    */
 
-.main-box{
+.main-box {
     display: grid;
     grid-gap: 20px;
     height: 1000px;
     grid-template:
         "empty-left  img-article-1  empty-right" 500px
         "empty-left  img-article-2  empty-right" 500px
-        "empty-left  contenido     empty-right"/
-        1fr         80%            1fr;
+        "empty-left  contenido     empty-right" /
+        1fr 80% 1fr;
 
 }
 
-.img-article-1{
+.img-article-1 {
     margin-top: 80px;
     grid-area: img-article-1;
     background-color: rgb(133, 132, 132);
 }
 
-.img-article-2{
+.img-article-2 {
     left: 73%;
     bottom: 25%;
     width: 250px;
@@ -77,30 +81,30 @@
     width: 450px;
     height: 300px;
     position: relative;
-}   
+}
 
-.h3{
+.h3 {
     font-size: 64px;
 }
 
-.text{
+.text {
     font-size: 24px;
 }
 
-.boxi{
+.boxi {
     position: absolute;
     top: 30%;
     left: -30%;
-    font-size: 62px; 
+    font-size: 62px;
     color: rgb(119, 117, 115);
 }
 
-.boxi:hover{
+.boxi:hover {
     cursor: pointer;
     color: darkorange;
 }
 
-.boxp{
+.boxp {
     position: relative;
     top: 50%;
     left: -27%;
@@ -108,52 +112,60 @@
 }
 
 /*    SECTION 2     */
-.main-section2{
+.main-section2 {
     display: grid;
     grid-gap: 30px;
     height: 500px;
     grid-template: "empty-left  img-section-1 img-section-2 img-section-3 img-section-4 img-section-5 img-section-6   empty-right" 400px/
-                    1fr          13%          13%            13%           13%           13%           13%            1fr;
+        1fr 13% 13% 13% 13% 13% 13% 1fr;
 }
-.h2-section2{
+
+.h2-section2 {
     text-align: center;
     font-size: 72px;
 }
-.text-2{
+
+.text-2 {
     text-align: center;
     font-size: 16px;
 }
-.img-section-1{
+
+.img-section-1 {
     margin-top: 80px;
     grid-area: img-section-1;
     background-color: rgb(26, 26, 26);
     height: 320px;
 }
-.img-section-2{
+
+.img-section-2 {
     margin-top: 80px;
     grid-area: img-section-2;
     background-color: rgb(26, 26, 26);
     height: 320px;
 }
-.img-section-3{
+
+.img-section-3 {
     margin-top: 80px;
     grid-area: img-section-3;
     background-color: rgb(26, 26, 26);
     height: 320px;
 }
-.img-section-4{
+
+.img-section-4 {
     margin-top: 80px;
     grid-area: img-section-4;
     background-color: rgb(26, 26, 26);
     height: 320px;
 }
-.img-section-5{
+
+.img-section-5 {
     margin-top: 80px;
     grid-area: img-section-5;
     background-color: rgb(26, 26, 26);
     height: 320px;
 }
-.img-section-6{
+
+.img-section-6 {
     margin-top: 80px;
     grid-area: img-section-6;
     background-color: rgb(26, 26, 26);
@@ -161,46 +173,52 @@
 }
 
 /*    SECTION 3     */
-.main-section3{
+.main-section3 {
     display: grid;
     grid-gap: 60px;
     height: 400px;
     grid-template: "empty-left  img-section3-1 img-section3-2 img-section3-3  empty-right" 300px/
-                    1fr          13%          13%            13%                   1fr;
+        1fr 13% 13% 13% 1fr;
 }
-.h2-section3{
+
+.h2-section3 {
     text-align: center;
     font-size: 72px;
 }
-.text-3{
+
+.text-3 {
     text-align: center;
     font-size: 16px;
 }
-.img-section3-1{
+
+.img-section3-1 {
     margin-top: 80px;
     grid-area: img-section3-1;
     background-color: rgb(26, 26, 26);
     height: 240px;
 }
-.img-section3-2{
+
+.img-section3-2 {
     margin-top: 80px;
     grid-area: img-section3-2;
     background-color: rgb(26, 26, 26);
     height: 240px;
 }
-.img-section3-3{
+
+.img-section3-3 {
     margin-top: 80px;
     grid-area: img-section3-3;
     background-color: rgb(26, 26, 26);
     height: 240px;
 }
 
-/*      FOOTER     */   
-.lol{
-    display:flex ;
-    justify-content: center; 
+/*      FOOTER     */
+.lol {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
 .social {
     display: inline-block;
     width: 80px;
@@ -209,9 +227,9 @@
 }
 
 .social:hover {
-    font-size: 36px; 
+    font-size: 36px;
     transition: 1s;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 span {
@@ -219,7 +237,7 @@ span {
     right: 10%;
 }
 
-.container-mobile{
+.container-mobile {
     display: none;
 }
 
@@ -229,14 +247,12 @@ span {
     }
 
     .container-mobile {
-        margin: 20px;
         display: flex;
         justify-content: center;
-
     }
 
     .contenido-mobile {
-        width: 100vh;
+        width: 90%;
     }
 
     .menu-hamburguer {
@@ -296,11 +312,11 @@ span {
         height: 100%;
         margin-top: 30px;
         display: grid;
-        grid-template: "video-mobile" 250px
+        grid-template: "video-mobile" 55vw
             "descripcion-mobile" auto "imagenes-mobile" auto
             "audio-mobile" auto
             "footer" 100px/
-            1fr;
+            auto;
     }
 
     .video-mobile {
@@ -343,7 +359,7 @@ span {
         margin-top: 80px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 130px 170px 170px;
+        grid-template-rows: 120px auto auto;
     }
 
     .head-imagenes-mobile {
@@ -360,8 +376,15 @@ span {
     .img4-mobile,
     .img5-mobile,
     .img6-mobile {
+        margin: 10px 6px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgs-mobile {
         background-color: black;
-        margin: 15px;
+        width: 90%;
+        height: 32vw;
     }
 
     .titulo2-mobile,
@@ -374,7 +397,7 @@ span {
         margin-top: 80px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 130px 140px;
+        grid-template-rows: 130px auto;
     }
 
     .head-audio-mobile {
@@ -388,8 +411,15 @@ span {
     .audio1-mobile,
     .audio2-mobile,
     .audio3-mobile {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .audios-mobile {
         background-color: black;
-        margin: 20px;
+        width: 90%;
+        height: 20vw;
     }
 
     .titulo2-mobile {
@@ -408,11 +438,13 @@ span {
     }
 
     footer {
-        grid-area: footer;
+        margin-top: 30px;
+        height: 100px;
     }
 
     .a-footer {
         width: unset;
+        margin: unset;
     }
 
 }
