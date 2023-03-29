@@ -208,7 +208,8 @@ p{
     }
 
     .menu-hamburguer {
-        width: 100%;
+        z-index: 1;
+        width: 90%;
         display: flex;
     }
 
@@ -234,6 +235,7 @@ p{
         color: black;
         padding: 10px;
         width: 140px;
+        cursor: pointer;
     }
 
     a:hover {
@@ -243,11 +245,19 @@ p{
 
     ul>li>ul>Li {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    li {
+        display: inline-flex;
+        position: relative;
     }
 
     nav {
         position: absolute;
         z-index: 1;
+        border-radius: 8px;
     }
 
     nav>ul>li:hover li {
@@ -256,7 +266,6 @@ p{
 
     .nav-mobile-invisible {
         display: none;
-
     }
     p {
         text-align: justify;
