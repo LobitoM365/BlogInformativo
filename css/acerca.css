@@ -12,9 +12,10 @@
     grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
 }
 
-.h2{
+.h2 {
     color: #D79287;
 }
+
 .logo {
     margin-top: 25px;
     grid-area: logo;
@@ -66,6 +67,7 @@
     grid-area: text-1;
     margin-top: 80px;
 }
+
 .text-1 {
     text-align: justify;
     word-spacing: 1px;
@@ -89,17 +91,20 @@ p {
     margin: 15px 0;
     font-size: 1.3em;
 }
-.boxi{
+
+.boxi {
     position: relative;
     text-align: right;
-    font-size: 32px; 
+    font-size: 32px;
     color: rgb(216, 19, 19);
 }
-.header-section1{
+
+.header-section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.boxi:hover{
+
+.boxi:hover {
     cursor: pointer;
 }
 
@@ -145,6 +150,7 @@ p {
     margin-top: 20px;
     text-align: center;
 }
+
 .img-section-1 img,
 .img-section-2 img,
 .img-section-3 img {
@@ -193,6 +199,7 @@ p {
     background-color: rgb(26, 26, 26);
     border-radius: 15%;
 }
+
 .img-section3-1 img,
 .img-section3-2 img,
 .img-section3-3 img {
@@ -227,36 +234,47 @@ p {
 
 @media screen and (max-width:1000px) {
 
-    .container-desk {
+    .contenido-mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .container-desktop {
         display: none;
     }
 
     .container-mobile {
-
         display: flex;
         justify-content: center;
 
     }
 
     .contenido-mobile {
-        width: 80%;
+        width: 90%;
     }
 
     .menu-hamburguer {
         z-index: 1;
-        width: 90%;
+        width: 100%;
         display: flex;
+        align-items: center;
     }
 
     .titulo-menu-hamburguer {
         text-align: center;
         width: 100%;
+        font-size: 1.5em;
     }
+
 
     .icono-menu {
         width: 30px;
         cursor: pointer;
-        margin: 10px;
+        position: absolute;
     }
 
     ul {
@@ -269,7 +287,7 @@ p {
         font-size: 1.2em;
         color: black;
         padding: 10px;
-        width: 140px;
+        width: 1fr;
         cursor: pointer;
     }
 
@@ -282,7 +300,7 @@ p {
         display: none;
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 60%;
     }
 
     li {
@@ -310,7 +328,8 @@ p {
         grid-template: "titulo1-mobile   heart" 60px
             "img1-mobile      img1-mobile" 34vw
             "parrafo1-mobile  parrafo1-mobile" auto
-            "parrafo2-mobile  parrafo2-mobile" auto/
+            "parrafo2-mobile  parrafo2-mobile" auto
+            "parrafo3-mobile  parrafo3-mobile" auto/
             1fr 60px;
     }
 
@@ -328,9 +347,10 @@ p {
     }
 
     .heart {
-        color: rgb(190, 190, 190);
+        color: rgb(216, 19, 19);
         grid-area: heart;
         width: 100%;
+        font-size: 2.2em;
         display: flex;
         align-items: center;
         justify-content: right;
@@ -347,8 +367,11 @@ p {
     }
 
     .parrafo2-mobile {
-
         grid-area: parrafo2-mobile;
+    }
+
+    .parrafo3-mobile {
+        grid-area: parrafo3-mobile;
     }
 
     p {
@@ -357,7 +380,7 @@ p {
     }
 
     .seccion2-mobile {
-        margin-top: 15px;
+        margin-top: 105px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 130px auto;
@@ -374,14 +397,9 @@ p {
     .img2-mobile,
     .img3-mobile,
     .img4-mobile {
-        background-color: black;
-        width: 90%;
-        height: 30vw;
+        width: 92%;
+        height: 40vw;
         display: flex;
-    }
-
-    .img-center {
-        margin: 10px;
     }
 
     h2 {
@@ -393,10 +411,10 @@ p {
     }
 
     .seccion3-mobile {
-        margin-top: 15px;
+        margin-top: 105px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 130px auto;
+        grid-template-rows: auto auto;
     }
 
     .head-audio-mobile {
@@ -405,24 +423,14 @@ p {
         flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 4;
+        text-align: center;
     }
 
     .img5-mobile,
     .img6-mobile,
     .img7-mobile {
         background-color: black;
-        width: 70%;
-        height: 15vw;
-    }
-
-    .img5-mobile {
-        position: relative;
-        left: 20px;
-    }
-
-    .img7-mobile {
-        position: relative;
-        left: -20px;
+        width: 90%;
     }
 
     .img-center {
@@ -434,6 +442,7 @@ p {
     h2 {
         font-size: 2.7em;
     }
+
 
     .parrafo-imgs-section3-mobile {
         margin: 15px 10px;
@@ -460,4 +469,14 @@ p {
         margin: unset;
     }
 
+    .annyung {
+        position: unset;
+        color: rgb(215, 146, 135);
+    }
+    .titulo2-mobile{
+        color: rgb(215,146,135);
+    }
+    .titulo3-mobile{
+        color: rgb(235,172,101);
+    }
 }
