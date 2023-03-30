@@ -10,11 +10,15 @@
     grid-template:"empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 
                     2fr        20%       1fr          1fr            1fr         40%     1fr;
 }
-.logo{
+.h2{
+    color: #D79287;
+}
+.logo {
     margin-top: 25px;
     grid-area: logo;
     font-size: 20px;
     color: rgb(9, 10, 10);
+    text-align: center;
 }
 
 .menu{
