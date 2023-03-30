@@ -126,19 +126,19 @@ p {
 .img-section-1 {
     margin-top: 80px;
     grid-area: img-section-1;
-    background-color: rgb(26, 26, 26);
+    height: 50vh;
 }
 
 .img-section-2 {
     margin-top: 80px;
     grid-area: img-section-2;
-    background-color: rgb(26, 26, 26);
+    height: 50vh;
 }
 
 .img-section-3 {
     margin-top: 80px;
     grid-area: img-section-3;
-    background-color: rgb(26, 26, 26);
+    height: 50vh;
 }
 
 .texto-section2 {
@@ -150,7 +150,7 @@ p {
 .img-section-3 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* SECTION 3 */
@@ -176,31 +176,27 @@ p {
 .img-section3-1 {
     margin-top: 20px;
     grid-area: img-section3-1;
-    background-color: rgb(26, 26, 26);
-    border-radius: 15%;
+    height: 50vh;
 }
 
 .img-section3-2 {
     margin-top: 20px;
     grid-area: img-section3-2;
-    background-color: rgb(26, 26, 26);
-    border-radius: 15%;
+    height: 50vh;
 }
 
 .img-section3-3 {
     margin-top: 20px;
     grid-area: img-section3-3;
-    background-color: rgb(26, 26, 26);
-    border-radius: 15%;
+    height: 50vh;
 }
 .img-section3-1 img,
 .img-section3-2 img,
 .img-section3-3 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
-
 /* FOOTER */
 .lol {
     display: flex;
