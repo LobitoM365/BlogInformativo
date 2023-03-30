@@ -12,11 +12,15 @@
     grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
 }
 
+.h2{
+    color: #D79287;
+}
 .logo {
-    grid-area: logo;
     margin-top: 25px;
-    font-size: 1.3em;
-    color: #090a0a;
+    grid-area: logo;
+    font-size: 20px;
+    color: rgb(9, 10, 10);
+    text-align: center;
 }
 
 .menu {
@@ -62,6 +66,10 @@
     grid-area: text-1;
     margin-top: 80px;
 }
+.text-1 {
+    text-align: justify;
+    word-spacing: 1px;
+}
 
 .img-1 {
     grid-area: img-1;
@@ -74,24 +82,25 @@
 h6 {
     margin: 5px;
     font-size: 1.5em;
+    letter-spacing: 5px;
 }
 
 p {
     margin: 15px 0;
     font-size: 1.3em;
 }
-
-.boxi {
-    position: absolute;
-    top: 18%;
-    left: 46%;
-    font-size: 32px;
-    color: #777573;
+.boxi{
+    position: relative;
+    text-align: right;
+    font-size: 32px; 
+    color: rgb(216, 19, 19);
 }
-
-.boxi:hover {
+.header-section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.boxi:hover{
     cursor: pointer;
-    color: #e21212;
 }
 
 /*     SECTION 2     */
@@ -99,13 +108,14 @@ p {
     display: grid;
     grid-gap: 30px;
     height: 600px;
-    grid-template: "empty-left  img-section-1 img-section-2 img-section-3   empty-right" 300px/
+    grid-template: "empty-left  img-section-1 img-section-2 img-section-3   empty-right" 400px/
         1fr 20% 20% 20% 1fr;
 }
 
 .h2-section2 {
     text-align: center;
     font-size: 72px;
+    color: #D79287;
 }
 
 .text-2 {
@@ -131,27 +141,16 @@ p {
     background-color: rgb(26, 26, 26);
 }
 
-.img-section-4 {
-    margin-top: 80px;
-    grid-area: img-section-4;
-    background-color: rgb(26, 26, 26);
-}
-
-.img-section-5 {
-    margin-top: 80px;
-    grid-area: img-section-5;
-    background-color: rgb(26, 26, 26);
-}
-
-.img-section-6 {
-    margin-top: 80px;
-    grid-area: img-section-6;
-    background-color: rgb(26, 26, 26);
-}
-
 .texto-section2 {
-    margin-top: 220px;
+    margin-top: 20px;
     text-align: center;
+}
+.img-section-1 img,
+.img-section-2 img,
+.img-section-3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* SECTION 3 */
@@ -159,13 +158,14 @@ p {
     display: grid;
     grid-gap: 60px;
     height: 400px;
-    grid-template: "empty-left  img-section3-1 img-section3-2 img-section3-3  empty-right" 300px/
-        1fr 25% 25% 25% 1fr;
+    grid-template: "empty-left  img-section3-1 img-section3-2 img-section3-3  empty-right" 200px/
+        1fr 15% 15% 15% 1fr;
 }
 
 .h2-section3 {
     text-align: center;
     font-size: 72px;
+    color: #EBAC65;
 }
 
 .text-3 {
@@ -192,6 +192,13 @@ p {
     grid-area: img-section3-3;
     background-color: rgb(26, 26, 26);
     border-radius: 15%;
+}
+.img-section3-1 img,
+.img-section3-2 img,
+.img-section3-3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* FOOTER */
