@@ -232,7 +232,7 @@ p {
     }
 
     .container-mobile {
-  
+
         display: flex;
         justify-content: center;
 
@@ -243,7 +243,8 @@ p {
     }
 
     .menu-hamburguer {
-        width: 100%;
+        z-index: 1;
+        width: 90%;
         display: flex;
     }
 
@@ -269,6 +270,7 @@ p {
         color: black;
         padding: 10px;
         width: 140px;
+        cursor: pointer;
     }
 
     a:hover {
@@ -278,11 +280,20 @@ p {
 
     ul>li>ul>Li {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    li {
+        display: inline-flex;
+        position: relative;
     }
 
     nav {
         position: absolute;
         z-index: 1;
+        border-radius: 8px;
     }
 
     nav>ul>li:hover li {
@@ -291,7 +302,6 @@ p {
 
     .nav-mobile-invisible {
         display: none;
-
     }
 
     .seccion1-mobile {
@@ -404,14 +414,17 @@ p {
         width: 70%;
         height: 15vw;
     }
-    .img5-mobile{
+
+    .img5-mobile {
         position: relative;
         left: 20px;
     }
-    .img7-mobile{
+
+    .img7-mobile {
         position: relative;
         left: -20px;
     }
+
     .img-center {
         display: flex;
         align-items: center;
@@ -421,6 +434,7 @@ p {
     h2 {
         font-size: 2.7em;
     }
+
     .parrafo-imgs-section3-mobile {
         margin: 15px 10px;
     }
