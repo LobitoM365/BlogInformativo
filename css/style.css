@@ -291,7 +291,8 @@ span {
     }
 
     .menu-hamburguer {
-        width: 100%;
+        z-index: 1;
+        width: 90%;
         display: flex;
     }
 
@@ -317,6 +318,7 @@ span {
         color: black;
         padding: 10px;
         width: 140px;
+        cursor: pointer;
     }
 
     a:hover {
@@ -326,11 +328,19 @@ span {
 
     ul>li>ul>Li {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    li {
+        display: inline-flex;
+        position: relative;
     }
 
     nav {
         position: absolute;
         z-index: 1;
+        border-radius: 8px;
     }
 
     nav>ul>li:hover li {
@@ -339,10 +349,10 @@ span {
 
     .nav-mobile-invisible {
         display: none;
-
     }
 
     .seccion-mobile {
+        top: 30px;
         position: relative;
         height: 100%;
         margin-top: 30px;
@@ -383,10 +393,10 @@ span {
         width: 100%;
         text-align: right;
         font-size: 25px;
+        cursor: pointer;
     }
-
-    .ver-mas {
-        text-align: right;
+    .star:hover{
+        color: rgb(255,144,0);
     }
 
     .imagenes-mobile {
@@ -482,4 +492,19 @@ span {
         margin: unset;
     }
 
+    .ver-mas,
+    .ver-menos {
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .ver-menos,
+    .parrafo2-mobile,
+    .ver-mas-invisible {
+        display: none;
+    }
+
+    .ver-menos-visible {
+        display: block;
+    }
 }
