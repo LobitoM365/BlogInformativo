@@ -392,7 +392,6 @@ span {
     }
 
     .video-mobile {
-        background-color: rgb(166, 166, 166);
         grid-area: video-mobile;
         border-radius: 25px 25px 0px 0px;
     }
@@ -462,7 +461,6 @@ span {
     }
 
     .imgs-mobile {
-        background-color: black;
         width: 90%;
         height: 35vw;
     }
@@ -497,7 +495,6 @@ span {
     }
 
     .audios-mobile {
-        background-color: black;
         width: 90%;
         height: 25vw;
     }
