@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*    NAV      */
@@ -259,7 +260,7 @@ p {
     }
 
     .contenido-mobile {
-        width: 90%;
+        margin: 0px 5%;
     }
 
     .menu-hamburguer {
@@ -282,6 +283,7 @@ p {
         position: absolute;
     }
 
+
     ul {
         list-style: none;
     }
@@ -298,7 +300,6 @@ p {
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
-        border-radius: 8px;
     }
 
     ul>li>ul>Li {
@@ -316,11 +317,12 @@ p {
     nav {
         position: absolute;
         z-index: 1;
-        border-radius: 8px;
+        background-color: #ffffff;
     }
 
     nav>ul>li:hover li {
         display: block;
+        background-color: #ffffff;
     }
 
     .nav-mobile-invisible {
@@ -387,10 +389,10 @@ p {
     }
 
     .seccion2-mobile {
-        margin-top: 80px;
+        margin-top: 20vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 130px 40vw 40vw;
+        grid-template-rows: auto auto auto;
     }
 
     .head-imagenes-mobile {
@@ -399,6 +401,7 @@ p {
         flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 4;
+        margin-bottom: 30px;
     }
 
     .img2-mobile,
@@ -429,10 +432,10 @@ p {
     }
 
     .seccion3-mobile {
-        margin-top: 140px;
+        margin-top: 20vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 120px auto;
+        grid-template-rows: auto auto;
 
     }
 
@@ -440,6 +443,7 @@ p {
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
     .div-video {
@@ -463,17 +467,24 @@ p {
     }
 
     .contactos {
-        width: 20px;
+        width: 5vw;
     }
 
     footer {
-        margin-top: 30px;
-        height: 100px;
+        margin: 15vw 0px 7vw 0px;
+        height: auto;
     }
 
     .a-footer {
         width: unset;
         margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-footer:hover {
+        background-color: unset;
     }
 
     .annyung {
@@ -487,7 +498,7 @@ p {
 
     .bolder {
         font-weight: 900;
-        font-size: 4.4vw;
+        font-size: 2.95vw;
     }
 
     .ligher {

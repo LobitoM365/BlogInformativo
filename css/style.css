@@ -295,10 +295,6 @@ span {
         grid-template-columns: 1fr;
     }
 
-    .container {
-        display: none;
-    }
-
     .container-desktop {
         display: none;
     }
@@ -310,7 +306,7 @@ span {
     }
 
     .contenido-mobile {
-        width: 90%;
+        margin: 0px 5%;
     }
 
     .menu-hamburguer {
@@ -325,7 +321,6 @@ span {
         width: 100%;
         font-size: 1.5em;
     }
-
 
     .icono-menu {
         width: 30px;
@@ -349,7 +344,6 @@ span {
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
-        border-radius: 8px;
     }
 
     ul>li>ul>Li {
@@ -367,11 +361,12 @@ span {
     nav {
         position: absolute;
         z-index: 1;
-        border-radius: 8px;
+        background-color: #ffffff;
     }
 
     nav>ul>li:hover li {
         display: block;
+        background-color: #ffffff;
     }
 
     .nav-mobile-invisible {
@@ -387,7 +382,7 @@ span {
         grid-template: "video-mobile" auto
             "descripcion-mobile" auto "imagenes-mobile" auto
             "audio-mobile" auto
-            "footer" 100px/
+            "footer" auto/
             auto;
     }
 
@@ -435,7 +430,7 @@ span {
 
     .imagenes-mobile {
         grid-area: imagenes-mobile;
-        margin-top: 80px;
+        margin-top: 20vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto auto;
@@ -447,6 +442,7 @@ span {
         flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 4;
+        margin-bottom: 30px;
     }
 
     .img1-mobile,
@@ -462,7 +458,7 @@ span {
 
     .imgs-mobile {
         width: 90%;
-        height: 35vw;
+        height: 39vw;
     }
 
     .titulo2-mobile,
@@ -473,10 +469,10 @@ span {
 
     .audio-mobile {
         grid-area: audio-mobile;
-        margin-top: 80px;
+        margin-top: 20vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 130px auto;
+        grid-template-rows: auto auto;
     }
 
     .head-audio-mobile {
@@ -485,6 +481,7 @@ span {
         flex-direction: column;
         grid-column-start: 1;
         grid-column-end: 4;
+        margin-bottom: 30px;
     }
 
     .audio1-mobile,
@@ -508,17 +505,24 @@ span {
     }
 
     .contactos {
-        width: 20px;
+        width: 5vw;
     }
 
     footer {
-        margin-top: 30px;
-        height: 100px;
+        margin: 15vw 0px 7vw 0px;
+        height: auto;
     }
 
     .a-footer {
         width: unset;
         margin: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-footer:hover {
+        background-color: unset;
     }
 
     .ver-mas,
