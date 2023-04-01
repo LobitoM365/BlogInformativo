@@ -10,11 +10,7 @@
     display: grid;
     grid-gap: 20px;
     grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px
-<<<<<<< HEAD
-                    / 2fr 20% 1fr 1fr 1fr 40% 1fr;
-=======
         / 2fr 20% 1fr 1fr 1fr 40% 1fr;
->>>>>>> master
 }
 
 .h2 {
@@ -63,32 +59,14 @@
     grid-template:
         "empty-left  img-article-1  empty-right" 500px
         "empty-left  img-article-2  empty-right" 500px
-        "empty-left  contenido     empty-right"/
+        "empty-left  contenido     empty-right" /
         1fr 80% 1fr;
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> master
-.img-article-1 iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.img-article-1 {
-    margin-top: 80px;
-    grid-area: img-article-1;
-    background-color: rgb(133, 132, 132);
-    position: relative;
-}
 
 .img-article-1 iframe {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .img-article-1 {
@@ -121,6 +99,7 @@
     grid-area: img-article-2;
     background-color: rgb(32, 32, 32);
 }
+
 .contenido {
     grid-area: contenido;
     left: 20%;
