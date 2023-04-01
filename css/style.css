@@ -378,10 +378,10 @@ span {
     .seccion-mobile {
         top: 30px;
         position: relative;
-        height: 100%;
+        height: auto;
         margin-top: 30px;
         display: grid;
-        grid-template: "video-mobile" 55vw
+        grid-template: "video-mobile" auto
             "descripcion-mobile" auto "imagenes-mobile" auto
             "audio-mobile" auto
             "footer" 100px/
@@ -392,6 +392,10 @@ span {
         background-color: rgb(166, 166, 166);
         grid-area: video-mobile;
         border-radius: 25px 25px 0px 0px;
+    }
+
+    .video1-mobile {
+        width: 100%;
     }
 
     p {
@@ -532,17 +536,22 @@ span {
     .ver-menos-visible {
         display: block;
     }
-    .titulo3-mobile{
-        color: rgb(91,117,68);
+
+    .titulo3-mobile {
+        color: rgb(91, 117, 68);
     }
-    .titulo2-mobile{
-        color: rgb(235,172,101);
+
+    .titulo2-mobile {
+        color: rgb(235, 172, 101);
     }
-    .annyung{
+
+    .annyung {
         position: unset;
-        color: rgb(215,146,135);
+        color: rgb(215, 146, 135);
     }
-    .parrafo3-mobile{
+
+    .parrafo3-mobile {
         margin-bottom: 30px;
     }
+
 }
