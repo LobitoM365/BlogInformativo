@@ -9,7 +9,8 @@
 .nav {
     display: grid;
     grid-gap: 20px;
-    grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px/ 2fr 20% 1fr 1fr 1fr 40% 1fr;
+    grid-template: "empty-left logo   empty-middle   empty-middle  empty-middle  menu   empty-right" 100px
+        / 2fr 20% 1fr 1fr 1fr 40% 1fr;
 }
 
 .h2 {
@@ -63,13 +64,24 @@
 
 }
 
-.color {
-    background-color: #D6D3CF;
-    top: 100%;
-    left: 118%;
-    width: 938%;
+.img-article-1 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.img-article-1 {
+    margin-top: 80px;
+    grid-area: img-article-1;
+    background-color: rgb(133, 132, 132);
     position: relative;
-    z-index: -1;
+}
+
+.img-article-1 iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .img-article-1 {
@@ -158,43 +170,37 @@
 .img-section-1 {
     margin-top: 80px;
     grid-area: img-section-1;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-2 {
     margin-top: 80px;
     grid-area: img-section-2;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-3 {
     margin-top: 80px;
     grid-area: img-section-3;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-4 {
     margin-top: 80px;
     grid-area: img-section-4;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-5 {
     margin-top: 80px;
     grid-area: img-section-5;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-6 {
     margin-top: 80px;
     grid-area: img-section-6;
-    background-color: rgb(26, 26, 26);
-    height: 320px;
+    height: 50vh;
 }
 
 .img-section-1 img,
@@ -205,7 +211,7 @@
 .img-section-6 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /*    SECTION 3     */
@@ -231,22 +237,19 @@
 .img-section3-1 {
     margin-top: 80px;
     grid-area: img-section3-1;
-    background-color: rgb(26, 26, 26);
-    height: 240px;
+    height: 50vh;
 }
 
 .img-section3-2 {
     margin-top: 80px;
     grid-area: img-section3-2;
-    background-color: rgb(26, 26, 26);
-    height: 240px;
+    height: 50vh;
 }
 
 .img-section3-3 {
     margin-top: 80px;
     grid-area: img-section3-3;
-    background-color: rgb(26, 26, 26);
-    height: 240px;
+    height: 50vh;
 }
 
 .img-section3-1 img,
@@ -254,7 +257,7 @@
 .img-section3-3 img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /*      FOOTER     */
