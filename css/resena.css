@@ -294,15 +294,19 @@ p {
         font-size: 1.2em;
         color: black;
         padding: 10px;
-        width: 1fr;
+        width: auto;
         cursor: pointer;
+    }
+
+    nav>ul>li>ul> li a {
+        width: 130px;
     }
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
     }
 
-    ul>li>ul>Li {
+    ul>li>ul {
         display: none;
         position: absolute;
         top: 100%;
@@ -320,7 +324,7 @@ p {
         background-color: #ffffff;
     }
 
-    nav>ul>li:hover li {
+    nav>ul>li:hover ul {
         display: block;
         background-color: #ffffff;
     }
@@ -328,7 +332,6 @@ p {
     .nav-mobile-invisible {
         display: none;
     }
-
     p {
         text-align: justify;
         margin: unset;
