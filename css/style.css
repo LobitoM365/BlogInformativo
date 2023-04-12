@@ -436,27 +436,19 @@ a{
     margin-top: 45px;
     grid-area: img-section3-1;
     height: 50vh;
-    transition: rotate 1s;
 }
-.img-section3-1:hover,
-.img-section3-2:hover,
-.img-section3-3:hover{
-    rotate: 45deg;
-    transition: rotate 1s;
-}
+
 
 .img-section3-2 {
     margin-top: 45px;
     grid-area: img-section3-2;
     height: 50vh;
-    transition: rotate 1s;
 }
 
 .img-section3-3 {
     margin-top: 45px;
     grid-area: img-section3-3;
     height: 50vh;
-    transition: rotate 1s;
 }
 
 .img-section3-1 img,
