@@ -200,7 +200,7 @@ a{
     top: 25%;
 }
 */
-/* Estilos para la sección de escritorio */
+/* Estilos para la secciÃ³n de escritorio */
 /* .seccion-desktop {
     display: flex;
     flex-direction: column;
@@ -538,19 +538,15 @@ span {
         font-size: 1.2em;
         color: black;
         padding: 10px;
-        width: auto;
+        width: 1fr;
         cursor: pointer;
-    }
-
-    nav>ul>li>ul> li a {
-        width: 130px;
     }
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
     }
 
-    ul>li>ul {
+    ul>li>ul>Li {
         display: none;
         position: absolute;
         top: 100%;
@@ -568,7 +564,7 @@ span {
         background-color: #ffffff;
     }
 
-    nav>ul>li:hover ul {
+    nav>ul>li:hover li {
         display: block;
         background-color: #ffffff;
     }
@@ -695,23 +691,11 @@ span {
         justify-content: center;
     }
 
-    .spotify {
-        width: 83%;
-        height: 23vw;
-        rotate: 0deg;
-        transition: rotate 1s;
-        cursor: pointer;
-        padding: unset;
-    }
-
     .audios-mobile {
-        width: 100%;
+        width: 90%;
+        height: 25vw;
     }
 
-    .audios-mobile:hover {
-        rotate: 45deg;
-        transition: rotate 1s;
-    }
 
     .contactos-mobile {
         height: 100%;
