@@ -338,15 +338,19 @@ p {
         font-size: 1.2em;
         color: black;
         padding: 10px;
-        width: 1fr;
+        width: auto;
         cursor: pointer;
+    }
+
+    nav>ul>li>ul> li a {
+        width: 130px;
     }
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
     }
 
-    ul>li>ul>Li {
+    ul>li>ul {
         display: none;
         position: absolute;
         top: 100%;
@@ -364,7 +368,7 @@ p {
         background-color: #ffffff;
     }
 
-    nav>ul>li:hover li {
+    nav>ul>li:hover ul {
         display: block;
         background-color: #ffffff;
     }
@@ -372,7 +376,6 @@ p {
     .nav-mobile-invisible {
         display: none;
     }
-
     .seccion1-mobile {
         margin-top: 40px;
         display: grid;
@@ -479,16 +482,21 @@ p {
         margin-bottom: 30px;
     }
 
-    .img5-mobile,
-    .img6-mobile,
-    .img7-mobile {
-        width: 90%;
-    }
-
-    .img-center {
+    .spotify {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .audios-mobile {
+        width: 90%;
+        rotate: 0deg;
+        transition: rotate 1s;
+    }
+
+    .audios-mobile:hover {
+        rotate: 45deg;
+        transition: rotate 1s;
     }
 
     h2 {

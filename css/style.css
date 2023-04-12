@@ -538,15 +538,19 @@ span {
         font-size: 1.2em;
         color: black;
         padding: 10px;
-        width: 1fr;
+        width: auto;
         cursor: pointer;
+    }
+
+    nav>ul>li>ul> li a {
+        width: 130px;
     }
 
     a:hover {
         background-color: rgba(0, 0, 0, 0.041);
     }
 
-    ul>li>ul>Li {
+    ul>li>ul {
         display: none;
         position: absolute;
         top: 100%;
@@ -564,7 +568,7 @@ span {
         background-color: #ffffff;
     }
 
-    nav>ul>li:hover li {
+    nav>ul>li:hover ul {
         display: block;
         background-color: #ffffff;
     }
@@ -691,11 +695,23 @@ span {
         justify-content: center;
     }
 
-    .audios-mobile {
-        width: 90%;
-        height: 25vw;
+    .spotify {
+        width: 83%;
+        height: 23vw;
+        rotate: 0deg;
+        transition: rotate 1s;
+        cursor: pointer;
+        padding: unset;
     }
 
+    .audios-mobile {
+        width: 100%;
+    }
+
+    .audios-mobile:hover {
+        rotate: 45deg;
+        transition: rotate 1s;
+    }
 
     .contactos-mobile {
         height: 100%;
