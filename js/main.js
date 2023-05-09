@@ -21,3 +21,10 @@ verMenos.addEventListener("click", function () {
     verMas.classList.remove("ver-mas-invisible")
     verMenos.classList.remove("ver-menos-visible")
 }) */
+
+var video = document.getElementById("myVideo");
+
+video.addEventListener("ended", function() {
+    video.currentTime = 0; // reinicia el video
+    video.play(); // lo reproduce de nuevo
+});
