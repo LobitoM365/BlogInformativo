@@ -138,6 +138,7 @@ nav ul li .children {
     margin-top: 80px;
     height: 550px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .img-1 img{
@@ -189,7 +190,8 @@ p {
 
 .text-2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    margin:  0 10vw;
 }
 
 .img-section-1 {
@@ -214,7 +216,7 @@ p {
 .img-section-2 img,
 .img-section-3 img {
     height: 100%;
-    width: 100%;
+    width: auto;
     object-fit: contain;
 }
 
@@ -235,7 +237,8 @@ p {
 
 .text-3 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    margin:  0 10vw;
 }
 
 .img-section3-1 {
