@@ -300,6 +300,9 @@ p {
 
 
 @media screen and (max-width:1000px) {
+    body{
+        background-color: rgb(223, 221, 221);
+    }
     .contenido-mobile {
         display: grid;
         grid-template-columns: 1fr;

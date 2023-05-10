@@ -295,7 +295,9 @@ p {
 }
 
 @media screen and (max-width:1000px) {
-
+    body{
+        background-color: rgb(223, 221, 221);
+    }
     .contenido-mobile {
         display: grid;
         grid-template-columns: 1fr;
@@ -392,7 +394,7 @@ p {
         margin-top: 40px;
         display: grid;
         grid-template: "titulo1-mobile   heart" 60px
-            "img1-mobile      img1-mobile" 34vw
+            "img1-mobile      img1-mobile" auto
             "parrafo1-mobile  parrafo1-mobile" auto
             "parrafo2-mobile  parrafo2-mobile" auto
             "parrafo3-mobile  parrafo3-mobile" auto/
@@ -413,7 +415,7 @@ p {
     }
 
     .heart {
-        color: rgb(216, 19, 19);
+        color: rgb(215, 146, 135);
         grid-area: heart;
         width: 100%;
         font-size: 2.2em;
@@ -425,6 +427,7 @@ p {
     .img1-mobile {
         grid-area: img1-mobile;
         background-color: #030303;
+        height: 90vw;
     }
 
     .parrafo1-mobile {
@@ -555,5 +558,9 @@ p {
 
     .titulo3-mobile {
         color: rgb(235, 172, 101);
+    }
+    .img1-mobile-sobre{
+        width: 100%;
+        height: 100%;
     }
 }

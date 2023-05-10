@@ -350,6 +350,9 @@ span {
     display: none;
 }
 @media screen and (max-width:1000px) {
+    body{
+        background-color: rgb(223, 221, 221);
+    }
     .contenido-mobile {
         display: grid;
         grid-template-columns: 1fr;
@@ -614,7 +617,7 @@ span {
     }
 
     .titulo2-mobile {
-        color: rgb(235, 172, 101);
+        color: #EBAC65;
     }
 
     .annyung {
@@ -625,5 +628,20 @@ span {
     .parrafo3-mobile {
         margin-bottom: 30px;
     }
-
+    .ver-mas {
+        background-color: #EBAC65;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 1em;
+        cursor: pointer;
+        margin: 8% 0 0 0 ;
+    }
+    .ver-mas:hover {
+        background-color: #ff8800;
+    }
+    .ver-mas-a:hover {
+        background-color: unset;
+    }
 }
