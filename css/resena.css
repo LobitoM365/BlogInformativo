@@ -432,11 +432,15 @@ p {
     .stars {
         font-size: 1.8em;
         margin: auto 0px;
-        color: #EBAC65;
+        color: gray;
         grid-row-start: 4;
         grid-row-end: 5;
     }
 
+    .stars:hover {
+        color: darkorange;
+        cursor: pointer;
+    }
 
     h3 {
         font-size: 1.7em;
