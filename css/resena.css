@@ -299,10 +299,12 @@ p {
 }
 
 
+
 @media screen and (max-width:1000px) {
-    body{
+    body {
         background-color: rgb(223, 221, 221);
     }
+
     .contenido-mobile {
         display: grid;
         grid-template-columns: 1fr;
@@ -357,7 +359,7 @@ p {
         cursor: pointer;
     }
 
-    nav>ul>li>ul> li a {
+    nav>ul>li>ul>li a {
         width: 130px;
     }
 
@@ -391,6 +393,7 @@ p {
     .nav-mobile-invisible {
         display: none;
     }
+
     p {
         text-align: justify;
         margin: unset;
@@ -469,9 +472,13 @@ p {
     .img6-mobile,
     .img7-mobile {
         width: 100%;
-        height: 25vw;
-        border-radius: 100%;
         display: flex;
+    }
+
+    .imgs-reseña-mobile {
+        height: 28.3vw;
+        border-radius: 100%;
+        overflow: hidden;
     }
 
     .img-center {
